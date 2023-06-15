@@ -193,6 +193,10 @@ nav ul li:hover{
     font-weight: 400;
     font-size: 20px;
 }
+.projetos p strong{
+    font-weight: 400;
+    color: #1CBC64;
+}
 .projetos img{
     width: 21%;
     margin: 30px;
