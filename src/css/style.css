@@ -1,7 +1,7 @@
 
 header{
-    background-color: #ffffff7b;
-    backdrop-filter: blur(7px); 
+    background-color: #ffffff98;
+    backdrop-filter: blur(3px); 
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -168,4 +168,51 @@ nav ul li:hover{
 }
 .apresentacao{
     width: 42%;
+}
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.projetos h2{
+    margin: 150px 0px 20px ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #1CBC64;
+}
+.projetos span{
+    padding: 5px;
+    color: #F1F1F1;
+    background-color: #1CBC64;
+}
+.projetos p{
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.projetos img{
+    width: 21%;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.9s ease-in-out;
+}
+.projetos img:hover{
+    margin: 1.05px;
+    width: 25%;
+}
+.box-projetos{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.container-projetos{
+    width:1440px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: brown; */
 }
