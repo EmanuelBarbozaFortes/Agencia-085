@@ -1,0 +1,70 @@
+.box-projetos{
+    /* background-color: chartreuse; */
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.slide{
+    /* background-color: aqua; */
+    width: 320px;
+    height: 32vh;
+    margin: 40px;
+}
+.slide img{
+    width: 18%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  
+}
+/* .slide img:hover{
+    display: flex;
+    margin: -10px -20px;
+    width: 18.25%;
+
+} */
+
+#oliver img{
+    opacity: 0;
+    transition:  opacity 0.9s ease-in-out;
+}
+#oliver img.selected-oliver{
+    opacity: 1;
+}
+
+
+#jvieira img{
+    opacity: 0;
+    transition:  opacity 0.9s ease-in-out;
+}
+#jvieira img.selected-viera{
+    opacity: 1;
+}
+
+
+#perso img{
+    opacity: 0;
+    transition:  opacity 0.9s ease-in-out;
+}
+#perso img.selected-perso{
+    opacity: 1;
+}
+
+
+#provi img{
+    opacity: 0;
+    transition:  opacity 0.9s ease-in-out;
+}
+#provi img.selected-provi{
+    opacity: 1;
+}
+
+
+.linha{
+    display: flex;
+    margin: 1px;
+    justify-content: center;
+}

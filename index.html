@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/slides-projetos.css">
     <link rel="stylesheet" href="src/css/responsive.css" />
     <link rel="shortcut icon" href="src/imgs/logo.png" type="image/x-icon" />
     <title>Agencia 085</title>
@@ -91,25 +92,43 @@
     </section>
 
     <section class="projetos">
-      <div class="container-projetos">
-        <div>
+        <div class="text-projetos">
           <h2>NOSSOS <span>PROJETOS</span></h2>
           <p>Alguns dos nossos <strong>principais projetos</strong> assinados pela</p>
           <p>Agência 085 e que proporcionaram <strong>grandes resultados</strong></p>
         </div>
         <div class="box-projetos">
-          <div>
-            <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/1.jpg" alt="" />
-            <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/1.jpg" alt="" />
-            <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/27.png" alt="" />
+          <div class="linha">
+            <div class="slide" id="jvieira">
+              <img class="selected-viera" src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/1.jpg" alt="">
+              <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/2.jpg" alt="">
+              <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/3.jpg" alt="">
+            </div>
+            <div class="slide" id="oliver">
+              <img class="selected-oliver" src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/2.jpg" alt="">
+              <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/3.jpg" alt="">
+              <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/5.jpg" alt="">
+            </div>
+            <div class="slide" id="perso">
+              <img class="selected-perso" src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/27.png" alt="">
+              <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/jp1.png" alt="">
+              <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/jp2.png" alt="">
+            </div>
           </div>
-          <div>
-            <img src="src/imgs/MOCKUPS/MOCUPS-KPOOP/kpoop.jpg" alt="" />
-            <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/1.jpg" alt="" />
-            <img src="src/imgs/MOCKUPS/MOCUPS-LOGOS/radio logos.jpg" alt="" />
+          <div class="linha">
+            <div class="slide">
+              <img src="src/imgs/MOCKUPS/MOCUPS-KPOOP/kpoop.jpg" alt="">
+            </div>
+            <div class="slide" id="provi">
+              <img class="selected-provi" src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/1.jpg" alt="">
+              <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/2.jpg" alt="">
+              <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/3.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="src/imgs/MOCKUPS/MOCUPS-LOGOS/radio logos.jpg" alt="">
+            </div>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- <section class="serviços">
@@ -144,5 +163,10 @@
       src="https://kit.fontawesome.com/cce7add4ba.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/movimento.js"></script>
+    <script src="js/sljvieira.js"></script>
+    <script src="js/sloliver.js"></script>
+    <script src="js/slperso.js"></script>
+    <script src="js/slprovi.js"></script>
   </body>
 </html>

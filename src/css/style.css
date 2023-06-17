@@ -1,7 +1,7 @@
 
 header{
-    background-color: #ffffff98;
-    backdrop-filter: blur(3px); 
+    background-color: #ffffff54;
+    backdrop-filter: blur(7px); 
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -172,8 +172,12 @@ nav ul li:hover{
 .projetos{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100%;
+}
+.text-projetos{
+    text-align: center;
 }
 .projetos h2{
     margin: 150px 0px 20px ;
@@ -188,34 +192,13 @@ nav ul li:hover{
     background-color: #1CBC64;
 }
 .projetos p{
+    color: #A7A7A7;
     line-height: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 .projetos p strong{
     font-weight: 400;
     color: #1CBC64;
-}
-.projetos img{
-    width: 21%;
-    margin: 30px;
-    border-radius: 10px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transition: 0.9s ease-in-out;
-}
-.projetos img:hover{
-    margin: 1.05px;
-    width: 25%;
-}
-.box-projetos{
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-.container-projetos{
-    width:1440px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
