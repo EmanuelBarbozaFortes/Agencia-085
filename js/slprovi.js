@@ -28,7 +28,7 @@
 
 // startGalleryC();
 
-let time = 4000;
+let time = 4200;
 
 function startGalleryC() {
   let currentImageIndex = 0;

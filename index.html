@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/slides-projetos.css">
+    <link rel="stylesheet" href="src/css/slides-projetos.css" />
     <link rel="stylesheet" href="src/css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="src/imgs/logo.png" type="image/x-icon" />
     <title>Agencia 085</title>
   </head>
@@ -45,8 +46,8 @@
     <section class="home">
       <div class="container-home">
         <div class="intro">
-          <h2>BEM VINDOS A</h2>
-          <h1>AGÊNCIA 085!</h1>
+          <h2 data-aos="fade-down" data-aos-duration="3000">BEM VINDOS A</h2>
+          <h1 data-aos="fade-down" data-aos-duration="2000">AGÊNCIA 085!</h1>
           <p>
             Somos uma empresa cearense arretada, pronta para
             <span>alavancar seu negócio!</span>
@@ -56,16 +57,21 @@
           </a>
         </div>
         <div class="img-home">
-          <img src="src/imgs/img-home-page.png" alt="" />
+          <img
+            data-aos="zoom-out-left"
+            data-aos-duration="2000"
+            src="src/imgs/img-home-page.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
 
     <section class="quem-somos">
       <div class="container-quem-somos">
-        <div class="apresentacao">
+        <div class="apresentacao" data-aos="fade-right" data-aos-duration="2000">
           <h4>BEM VINDOS!</h4>
-          <h2>QUEM SOMOS?</h2>
+          <h2 >QUEM SOMOS?</h2>
           <p>
             Somos uma Agência de Marketing que nasceu em Fortaleza - Ceará, mas
             que não se limita apenas à nossa cidade!
@@ -86,72 +92,134 @@
           </a>
         </div>
         <div class="img-quem-somos">
-          <img src="src/imgs/img-quem-somos.png" alt="" />
+          <img
+            data-aos="zoom-out-left"
+            data-aos-duration="2000"
+            src="src/imgs/img-quem-somos.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
 
     <section class="projetos">
-        <div class="text-projetos">
-          <h2>NOSSOS <span>PROJETOS</span></h2>
-          <p>Alguns dos nossos <strong>principais projetos</strong> assinados pela</p>
-          <p>Agência 085 e que proporcionaram <strong>grandes resultados</strong></p>
-        </div>
-        <div class="box-projetos">
-          <div class="linha">
-            <div class="slide" id="jvieira">
-              <img class="selected-viera" src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/1.jpg" alt="">
-              <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/2.jpg" alt="">
-              <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/3.jpg" alt="">
-            </div>
-            <div class="slide" id="oliver">
-              <img class="selected-oliver" src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/2.jpg" alt="">
-              <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/3.jpg" alt="">
-              <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/5.jpg" alt="">
-            </div>
-            <div class="slide" id="perso">
-              <img class="selected-perso" src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/27.png" alt="">
-              <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/jp1.png" alt="">
-              <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/jp2.png" alt="">
-            </div>
+      <div class="text-projetos">
+        <h2>NOSSOS <span>PROJETOS</span></h2>
+        <p>
+          Alguns dos nossos <strong>principais projetos</strong> assinados pela
+        </p>
+        <p>
+          Agência 085 e que proporcionaram <strong>grandes resultados</strong>
+        </p>
+      </div>
+      <div class="box-projetos">
+        <div class="linha">
+          <div class="slide" id="jvieira">
+            <img
+              class="selected-viera"
+              src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/1.jpg"
+              alt=""
+            />
+            <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/2.jpg" alt="" />
+            <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/3.jpg" alt="" />
           </div>
-          <div class="linha">
-            <div class="slide">
-              <img src="src/imgs/MOCKUPS/MOCUPS-KPOOP/kpoop.jpg" alt="">
-            </div>
-            <div class="slide" id="provi">
-              <img class="selected-provi" src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/1.jpg" alt="">
-              <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/2.jpg" alt="">
-              <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/3.jpg" alt="">
-            </div>
-            <div class="slide">
-              <img src="src/imgs/MOCKUPS/MOCUPS-LOGOS/radio logos.jpg" alt="">
-            </div>
+          <div class="slide" id="oliver">
+            <img
+              class="selected-oliver"
+              src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/2.jpg"
+              alt=""
+            />
+            <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/3.jpg" alt="" />
+            <img src="src/imgs/MOCKUPS/MOCKUPS-OLIVER/5.jpg" alt="" />
+          </div>
+          <div class="slide" id="perso">
+            <img
+              class="selected-perso"
+              src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/27.png"
+              alt=""
+            />
+            <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/jp1.png" alt="" />
+            <img src="src/imgs/MOCKUPS/MOCKUPS-PERSONALITÉ/jp2.png" alt="" />
           </div>
         </div>
+        <div class="linha">
+          <div class="slide">
+            <img src="src/imgs/MOCKUPS/MOCUPS-KPOOP/kpoop.jpg" alt="" />
+          </div>
+          <div class="slide" id="provi">
+            <img
+              class="selected-provi"
+              src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/1.jpg"
+              alt=""
+            />
+            <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/2.jpg" alt="" />
+            <img src="src/imgs/MOCKUPS/MOCUPS-PROVIDENCE/3.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="src/imgs/MOCKUPS/MOCUPS-LOGOS/radio logos.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- <section class="serviços">
-      <div>
-        <h2></h2>
-        <p></p>
+    <section class="service">
+      <div class="container-service">
+        <div class="title">
+          <h2>NOSSOS <span>SERVIÇOS</span></h2>
+          <p>Trabalhamos com um <span>atendimento personalizado</span></p>
+          <p>e adaptado para o perfil de <span>cada cliente.</span></p>
+        </div>
+        <div id="container-buttom-serviços">
+          <div class="container-card">
+            <div
+              class="card-service"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <img src="src/imgs/gestao-de-redes.png" alt="" />
+              <h3>GESTÃO DE REDES SOCIAIS</h3>
+              <div class="linha-card"></div>
+              <p>
+                Planejamento e criação de conteúdo estratégico para as redes
+                sociais conforme o seu perfil
+              </p>
+            </div>
+            <div
+              class="card-service"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+            >
+              <img src="src/imgs/indentidade-visual.png" alt="" />
+              <h3>IDENTIDADE VISUAL</h3>
+              <div class="linha-card"></div>
+              <p>
+                Construção da identidade visual da marca e todos os materiais
+                necessários de branding
+              </p>
+            </div>
+            <div
+              class="card-service"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="3000"
+            >
+              <img src="src/imgs/trafego-pago.png" alt="" />
+              <h3>TRÁFEGO PAGO</h3>
+              <div class="linha-card"></div>
+              <p>
+                Gerenciamento estratégico de anúncios para as redes sociais e
+                google meu negócio
+              </p>
+            </div>
+          </div>
+          <a href="#">
+            <h4>COMEÇAR MEU PROJETO</h4>
+          </a>
+        </div>
       </div>
-      <div>
-        <i gestao de redes sociais class="fa-solid fa-icons"></i>
-        <h3></h3>
-        <p></p>
-      </div>
-      <div>
-        <i identidade visual class="fa-solid fa-pen-nib"></i>
-        <h3></h3>
-        <p></p>
-      </div>
-      <div>
-        <i trafego pago class="fa-sharp fa-solid fa-bullhorn"></i>
-        <h3></h3>
-        <p></p>
-      </div>
-    </section> -->
+    </section>
 
     <section class="clientes"></section>
 
@@ -163,6 +231,11 @@
       src="https://kit.fontawesome.com/cce7add4ba.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/movimento.js"></script>
     <script src="js/sljvieira.js"></script>
     <script src="js/sloliver.js"></script>

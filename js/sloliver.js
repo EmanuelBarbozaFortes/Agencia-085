@@ -1,5 +1,5 @@
 if (typeof time === 'undefined') {
-    let time = 4000;
+    let time = 4400;
   }
 function startGalleryC() {
   let currentImageIndex = 0;

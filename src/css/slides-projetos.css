@@ -1,5 +1,5 @@
 .box-projetos{
-    /* background-color: chartreuse; */
+   
     width: 1440px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,6 @@
     margin-bottom: 100px;
 }
 .slide{
-    /* background-color: aqua; */
     width: 320px;
     height: 32vh;
     margin: 40px;
@@ -20,12 +19,7 @@
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  
 }
-/* .slide img:hover{
-    display: flex;
-    margin: -10px -20px;
-    width: 18.25%;
 
-} */
 
 #oliver img{
     opacity: 0;
@@ -68,3 +62,10 @@
     margin: 1px;
     justify-content: center;
 }
+
+/* .slide img:hover{
+    display: flex;
+    margin: -10px -20px;
+    width: 18.25%;
+
+} */
