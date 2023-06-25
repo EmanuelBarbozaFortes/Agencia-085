@@ -1,4 +1,6 @@
-@media (max-width:300px){
-    
+@media (max-width:1440px){
+    .img-home img{
+        width: 88%;
+    }
 
 }
