@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/slides-projetos.css" />
+    <link rel="stylesheet" href="src/css/slides-empresas.css" />
     <link rel="stylesheet" href="src/css/responsive.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="shortcut icon" href="src/imgs/logo.png" type="image/x-icon" />
     <title>Agencia 085</title>
   </head>
   <body>
     <header>
       <div class="menu">
-        <div class="logo"><img src="src/imgs/logo-fotor-20230621161432.png" alt="" /></div>
+        <div class="logo">
+          <img src="src/imgs/logo-fotor-20230621161432.png" alt="" />
+        </div>
         <div class="links">
           <nav>
             <ul>
@@ -161,6 +168,42 @@
         </div>
       </div>
     </section>
+      <div class="slider">
+        <div class="swiper-button-prev buttom"></div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next buttom"></div>
+      </div>
 
     <section class="service">
       <div class="container-service">
@@ -224,17 +267,19 @@
     <section class="clientes"></section>
 
     <section class="contatos module parallax parallax-1">
-        <p>O seu negócio está em boas mãos!</p>
-        <h2>VAMOS COMEÇAR O SEU PROJETO?</h2>
-        <a href="">
-          <h3>FALE CONOSCO</h3>
-        </a>
+      <p>O seu negócio está em boas mãos!</p>
+      <h2>VAMOS COMEÇAR O SEU PROJETO?</h2>
+      <a href="">
+        <h3>FALE CONOSCO</h3>
+      </a>
     </section>
 
     <footer>
       <div class="container-footer">
-        <div >
-          <div class="img-footer"><img src="src/imgs/logo-horizontal-fotor.png" alt=""></div>
+        <div>
+          <div class="img-footer">
+            <img src="src/imgs/logo-horizontal-fotor.png" alt="" />
+          </div>
           <div class="email-phone">
             <i class="fa-sharp fa-solid fa-envelope icon"></i>
             <p>agencia085comunicacao@gmail.com</p>
@@ -266,16 +311,23 @@
         <h2>Agência 085 – Todos os Direitos Reservados.</h2>
         <h3>Construido por: NordDev</h3>
       </div>
-
     </footer>
 
-    <script src="https://kit.fontawesome.com/cce7add4ba.js"crossorigin="anonymous"></script>
+
+    <script src="js/empresas-slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <script src="js/movimento.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/sljvieira.js"></script>
     <script src="js/sloliver.js"></script>
     <script src="js/slperso.js"></script>
     <script src="js/slprovi.js"></script>
+    <script
+      src="https://kit.fontawesome.com/cce7add4ba.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

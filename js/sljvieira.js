@@ -26,7 +26,5 @@ function startGalleryC() {
 }
 
 
+
 startGalleryC();
-
-
-

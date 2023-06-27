@@ -1,0 +1,34 @@
+:root {
+  --swiper-navigation-size: 100px;
+  --swiper-navigation-top-offset: ;
+  --swiper-navigation-sides-offset: 120px;
+  --swiper-theme-color: rgb(128, 51, 0);
+  --swiper-navigation-color: var(--swiper-theme-color);
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 380px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  border-radius: 7px;
+  display: block;
+  width: 100%;
+}
