@@ -1,34 +1,58 @@
-:root {
-  --swiper-navigation-size: 100px;
-  --swiper-navigation-top-offset: ;
-  --swiper-navigation-sides-offset: 120px;
-  --swiper-theme-color: rgb(128, 51, 0);
-  --swiper-navigation-color: var(--swiper-theme-color);
-}
 .slider {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1440px;
 }
 
 .swiper {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  width: 90%;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 380px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 .swiper-slide img {
   border-radius: 7px;
   display: block;
   width: 100%;
+}
+.empresas {
+  background: linear-gradient(to bottom ,#FBAE39 );
+  background-color: #F9A530;
+  text-align: start;
+  padding: 100px 140px 140px 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.title-empresas{
+  width: 100%;
+}
+.empresas h2 {
+  margin: 60px;
+  color: #1cbc64;
+  text-align: start;
+  font-size: 55px;
+  font-family: Roboto Condensed;
+  font-weight: 700;
+}
+.empresas h2 span{
+  padding: 3px;
+  color: #f1f1f1;
+  background-color: #1cbc64;
+}
+.design-img{
+  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
 }
