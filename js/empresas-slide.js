@@ -21,9 +21,9 @@ let swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       type: "bullets",
     },
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    // },
     breakpoints: {
       300: {
         slidesPerView: 1,
