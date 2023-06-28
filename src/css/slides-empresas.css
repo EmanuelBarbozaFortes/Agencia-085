@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 1440px;
+  padding: 30px 0;
 }
 
 .swiper {
@@ -17,8 +18,8 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 50%;
+  padding-bottom: 40px;
 }
 
 .swiper-slide img {
@@ -27,7 +28,8 @@
   width: 100%;
 }
 .empresas {
-  background: linear-gradient(to top ,#0B9453, #FFFFFF);
+  /* background: linear-gradient(to top ,#0B9453, #FFFFFF); */
+  background-color: #f1f1f1;
   text-align: start;
   padding: 100px 140px 140px 140px;
   display: flex;
@@ -41,7 +43,7 @@
 }
 .empresas h2 {
   margin: 100px;
-  color: #fbae39;
+  color: #1CBC64;
   text-align: start;
   font-size: 55px;
   font-family: Roboto Condensed;
@@ -50,5 +52,8 @@
 .empresas h2 span{
   padding: 3px;
   color: #f1f1f1;
-  background-color: #fbae39;
+  background-color: #1CBC64;
+}
+.img-empresas{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
