@@ -17,6 +17,10 @@ let swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",
