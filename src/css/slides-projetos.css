@@ -63,7 +63,7 @@
 
 }
 
-@media (max-width:1024px){
+/* @media (max-width:1024px){
     .slide{
         width: 250px;
         height: 32vh;
@@ -73,7 +73,7 @@
         width: 250px;
     }
     
-}
+} */
 
 @media (max-width:982px){
     .slide{
