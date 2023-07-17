@@ -58,12 +58,13 @@
 }
 @media (max-width:1680px){
 
+
 }
 @media (max-width:1440px){
 
 }
 
-/* @media (max-width:1024px){
+@media (max-width:1024px){
     .slide{
         width: 250px;
         height: 32vh;
@@ -73,9 +74,9 @@
         width: 250px;
     }
     
-} */
+}
 
-@media (max-width:790px){
+@media (max-width:535px){
     .slide{
         width: 250px;
         height: 32vh;
