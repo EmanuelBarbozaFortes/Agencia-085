@@ -13,13 +13,11 @@
     margin: 40px;
 }
 .slide img{
-    width: 18%;
+    width: 320px;
     position: absolute;
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  
 }
-
-
 #oliver img{
     opacity: 0;
     transition:  opacity 0.9s ease-in-out;
@@ -27,7 +25,6 @@
 #oliver img.selected-oliver{
     opacity: 1;
 }
-
 
 #jvieira img{
     opacity: 0;
@@ -54,17 +51,49 @@
 #provi img.selected-provi{
     opacity: 1;
 }
-
-
 .linha{
     display: flex;
     margin: 1px;
     justify-content: center;
 }
+@media (max-width:1680px){
 
-/* .slide img:hover{
-    display: flex;
-    margin: -10px -20px;
-    width: 18.25%;
+}
+@media (max-width:1440px){
 
-} */
+}
+
+@media (max-width:1024px){
+    .slide{
+        width: 250px;
+        height: 32vh;
+        margin: 20px;
+    }
+    .slide img{
+        width: 250px;
+    }
+    
+}
+
+@media (max-width:375px){
+    .slide{
+        width: 250px;
+        height: 32vh;
+        margin: 40px;
+    }
+    .slide img{
+        width: 250px;
+    }
+    .linha{
+        display: flex;
+        flex-direction: column;
+        margin: 1px;
+        justify-content: center;
+    }
+    .kpop-logos {
+        position: absolute;
+        display: none;
+    }
+
+    
+}
