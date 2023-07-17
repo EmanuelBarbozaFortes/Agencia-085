@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/slides-projetos.css" />
+    <link rel="stylesheet" href="src/css/menu.css"/>
     <link rel="stylesheet" href="src/css/slides-empresas.css" />
     <link rel="stylesheet" href="src/css/responsive.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -21,10 +22,10 @@
         --swiper-navigation-size: 100px;
         --swiper-navigation-top-offset: ;
         --swiper-navigation-sides-offset: 160px;
-        --swiper-theme-color: #FBAE39;
+        --swiper-theme-color: #fbae39;
         --swiper-navigation-color: var(--swiper-theme-color);
       }
-    </style> 
+    </style>
   </head>
   <body>
     <header>
@@ -74,7 +75,7 @@
         </div>
         <div class="img-home">
           <img
-            data-aos="zoom-out-left"
+            data-aos="zoom-in"
             data-aos-duration="2000"
             src="src/imgs/img-home-page.png"
             alt=""
@@ -109,7 +110,7 @@
         </div>
         <div class="img-quem-somos">
           <img
-            data-aos="zoom-out-left"
+            data-aos="flip-down"
             data-aos-duration="2000"
             src="src/imgs/img-quem-somos.png"
             alt=""
@@ -131,7 +132,11 @@
       <div class="box-projetos">
         <div class="linha">
           <div class="slide" id="jvieira">
-            <img class="selected-viera"src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/1.jpg"alt=""/>
+            <img
+              class="selected-viera"
+              src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/1.jpg"
+              alt=""
+            />
             <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/2.jpg" alt="" />
             <img src="src/imgs/MOCKUPS/MOCKUPS-JVIEIRA/3.jpg" alt="" />
           </div>
@@ -180,7 +185,7 @@
           <p>Trabalhamos com um <span>atendimento personalizado</span></p>
           <p>e adaptado para o perfil de <span>cada cliente.</span></p>
         </div>
-        <div id="container-buttom-serviços">
+        <div id="container-buttom-servicos">
           <div class="container-card">
             <div
               class="card-service"
@@ -231,7 +236,7 @@
         </div>
       </div>
     </section>
-    <section class="empresas">
+    <!-- <section class="empresas">
       <div class="title-empresas" data-aos="fade-up" data-aos-duration="1500">
         <h2>NOSSOS <span>CLIENTES</span></h2>
       </div>
@@ -271,7 +276,7 @@
         </div>
         <div class="swiper-button-next buttom"></div>
       </div>
-    </section>
+    </section> -->
 
     <section class="clientes"></section>
 
@@ -322,7 +327,6 @@
       </div>
     </footer>
 
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -330,7 +334,7 @@
       src="https://kit.fontawesome.com/cce7add4ba.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <script>
       AOS.init();
     </script>
@@ -339,6 +343,5 @@
     <script src="js/sloliver.js"></script>
     <script src="js/slperso.js"></script>
     <script src="js/slprovi.js"></script>
-    
   </body>
 </html>
