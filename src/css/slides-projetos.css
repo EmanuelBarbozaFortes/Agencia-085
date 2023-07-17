@@ -75,7 +75,7 @@
     
 }
 
-@media (max-width:375px){
+@media (max-width:725px){
     .slide{
         width: 250px;
         height: 32vh;
@@ -93,7 +93,7 @@
     .kpop-logos {
         position: absolute;
         display: none;
-        
+
     }
 
     
