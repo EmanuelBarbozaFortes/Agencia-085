@@ -19,8 +19,10 @@
   .container-home {
     width: 100%;
   }
+  .titulo-home {
+    width:320px;
+  }
   .intro h1 {
-    width: 320px;
     font-size: 42.66px;
     font-weight: 600;
     color: #ffffff;
@@ -38,7 +40,7 @@
   .intro h3 {
     width: 400px;
     font-size: 17px;
-    padding: 17px 27px;;
+    padding: 17px 27px;
   }
   .quem-somos h2 {
     font-weight: 700;
@@ -73,7 +75,6 @@
   .service .title p {
     line-height: 24px;
     font-size: 16px;
-
   }
   .service .title p span {
     color: #f9a530;
@@ -164,4 +165,53 @@
 }
 
 @media (max-width: 375px) {
+  .home {
+    margin-top: 100px;
+    min-height: calc(100vh + 100px);
+  }
+  .container-home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-home img {
+    width: 350px;
+  }
+  .container-home {
+    width: 268px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  .home .container-home .intro {
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+  .titulo-home {
+    text-align: center;
+    width: 230px;
+  }
+  .intro h1 {
+    font-size: 31.777px;  
+  }
+  .intro h2 {
+    font-size: 31.777px;
+  }
+  .intro p {
+    font-size: 12.571px;
+  }
+  .intro h3 a {
+    text-align: center;
+    font-size: 13.658px;
+    padding: 10px 30px;
+  }
+
+
+
+
+
+  
 }

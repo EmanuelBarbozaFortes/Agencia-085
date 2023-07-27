@@ -3,68 +3,81 @@ body{
   flex-direction: column;
   justify-content: center;
 }
-.home {
+.home{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   min-height: calc(100vh + 100px);
-  position: relative;
 }
 .container-home {
   width: 1440px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 107px;
   align-items: center;
 }
 .home .container-home .intro {
-  font-family: "Poppins", sans-serif;
   width: 469px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
 }
-.img-home img {
-  width: 100%;
+.titulo-home{
+  width: 400px;
 }
 .intro h1 {
-  width: 395px;
   font-size: 55.66px;
-  font-weight: 600;
+  font-weight: 700;
   color: #ffffff;
   background-color: #0b9453;
 }
 .intro h2 {
+  font-weight: 700;
   font-size: 55.66px;
   color: #0b9453;
 }
 .intro p {
+  font-weight: 400;
   color: #999999;
-  margin: 30px 1px;
   font-size: 22px;
 }
-.intro p span {
+.container-home .intro p span {
   color: #1dc066;
 }
-.intro h3 {
+.intro h3 a{
   color: #ffffff;
   font-size: 22px;
   border-radius: 12px;
   text-align: center;
   background-color: #1dc066;
-  border: solid #1cbc64;
+  border: solid 2px #1cbc64;
   padding: 20px 40px;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
-.intro h3:hover {
+.intro a:hover {
   color: #1dc066;
   background-color: #ffffff;
-  border: solid #1cbc64;
+  border: solid 2px #1cbc64;
 }
-.quem-somos {
+
+
+
+.quem-somos{
+  margin: 100px auto;
+  max-width: 100%;
+}
+.container-quem-somos{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  background-color: #f1f1f1;
+  max-width: 1440px;
+  gap: 163px;
+}
+.content{
+  text-align: start;
+  width: 596px;
 }
 .quem-somos h2 {
   font-family: "Roboto Condensed", sans-serif;
@@ -79,8 +92,10 @@ body{
   font-size: 17px;
   font-weight: 400;
 }
-.quem-somos h3 {
-  margin-top: 60px;
+.quem-somos h3{
+  margin-top: 70px;
+}
+.quem-somos h3 a{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #1cbc64;
@@ -93,7 +108,7 @@ body{
   transition: 0.3s ease-in-out;
   width: 530px;
 }
-.quem-somos h3:hover {
+.quem-somos h3 a:hover {
   color: #ffffff;
   background-color: #faaa35;
   border: solid #faaa35;
@@ -104,18 +119,8 @@ body{
   font-weight: 400;
   font-size: 22px;
 }
-.container-quem-somos {
-  width: 1440px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.img-quem-somos img {
-  width: 100%;
-}
-.apresentacao {
-  width: 42%;
-}
+
+
 .projetos {
   display: flex;
   justify-content: center;
