@@ -29,25 +29,32 @@
   </head>
   <body>
     <header class="header">
-        <div class="header-container">
-          <img src="src/imgs/logo-fotor-20230621161432.png" alt="">
-          <nav>
-            <input type="checkbox" id="menu-hamburguer">
-            <label for="menu-hamburguer">
-              <div class="menu">
-                <span class="hamburguer"></span>
-              </div>
-            </label>
-            <ul>
-              <li><a href="">INÍCIO</a></li>
-              <li><a href="">QUEM SOMOS?</a></li>
-              <li><a href="">PROJETOS</a></li>
-              <li><a href="">SERVIÇOS</a></li>
-              <li><a href="">CLIENTES</a></li>
-              <li><a href="" id="btn-menu">SOLICITAR ORÇAMENTO</a></li>
-            </ul>
-          </nav>
-        </div>
+      <div class="header-container">
+        <img class="logo" src="src/imgs/logo-fotor-20230621161432.png" alt="" />
+        <nav class="menu">
+          <ul class="navegation">
+            <li><a href="">INÍCIO</a></li>
+            <li><a href="">QUEM SOMOS?</a></li>
+            <li><a href="">PROJETOS</a></li>
+            <li><a href="">SERVIÇOS</a></li>
+            <li><a href="">CLIENTES</a></li>
+            <li><a href="" id="btn-menu">SOLICITAR ORÇAMENTO</a></li>
+          </ul>
+        </nav>
+
+        <nav class="menu-mobile">
+          <div class="center">
+            <div></div>
+          </div>
+          <ul class="navegation-mobile">
+            <li><a href="">INÍCIO</a></li>
+            <li><a href="">QUEM SOMOS?</a></li>
+            <li><a href="">PROJETOS</a></li>
+            <li><a href="">SERVIÇOS</a></li>
+            <li><a href="">CLIENTES</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="home">
@@ -181,7 +188,7 @@
               class="card-service"
               data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="1750"
             >
               <img src="src/imgs/gestao-de-redes.png" alt="" />
               <h3>GESTÃO DE REDES SOCIAIS</h3>
@@ -209,7 +216,7 @@
               class="card-service"
               data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="3000"
+              data-aos-duration="2750"
             >
               <img src="src/imgs/trafego-pago.png" alt="" />
               <h3>TRÁFEGO PAGO</h3>
@@ -219,11 +226,25 @@
                 google meu negócio
               </p>
             </div>
+            <div
+              class="card-service"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="3000"
+            >
+              <img src="src/imgs/CRIACAO.png" alt="" />
+              <h3>CRIAÇÃO DE SITE</h3>
+              <div class="linha-card"></div>
+              <p>
+                Criamos o seu site com hospedagem e responsividade com sua
+                identidade.
+              </p>
+            </div>
           </div>
-          <a href="#">
-            <h4>COMEÇAR MEU PROJETO</h4>
-          </a>
         </div>
+        <a href="#">
+          <h4>COMEÇAR MEU PROJETO</h4>
+        </a>
       </div>
     </section>
     <!-- <section class="empresas">
@@ -246,7 +267,7 @@
             <div class="swiper-slide">
               <img class="img-empresas" src="src/imgs/foto-slide-4.png" />
             </div>
-            <div class="swiper-slide ">
+            <div class="swiper-slide">
               <img class="img-empresas" src="src/imgs/foto-slide-5g.png" />
             </div>
             <div class="swiper-slide">
@@ -324,14 +345,14 @@
       src="https://kit.fontawesome.com/cce7add4ba.js"
       crossorigin="anonymous"
     ></script>
-
     <script>
       AOS.init();
     </script>
-    <script src="js/empresas-slide.js"></script>
-    <script src="js/sljvieira.js"></script>
-    <script src="js/sloliver.js"></script>
-    <script src="js/slperso.js"></script>
-    <script src="js/slprovi.js"></script>
+    <script src="src/js/menu-mobile.js"></script>
+    <script src="src/js/empresas-slide.js"></script>
+    <script src="src/js/sljvieira.js"></script>
+    <script src="src/js/sloliver.js"></script>
+    <script src="src/js/slperso.js"></script>
+    <script src="src/js/slprovi.js"></script>
   </body>
 </html>

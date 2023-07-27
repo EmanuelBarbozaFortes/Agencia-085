@@ -1,9 +1,7 @@
-header {
-  background-color: #ffffff54;
-  backdrop-filter: blur(7px);
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .home {
   display: flex;
@@ -188,11 +186,12 @@ header {
   color: #f9a530;
 }
 .card-service {
+  margin: 17px 17px;
   display: flex;
   align-items: center;
   flex-direction: column;
   border-radius: 17px;
-  padding: 60px 50px;
+  padding: 40px 60px;
   background-color: #F1F1F1;
   width: 25%;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -202,7 +201,7 @@ header {
   width: 150px;
 }
 .card-service h3 {
-  margin: 30px 10px 15px 10px;
+  margin: 30px 0px 15px 0px;
   color: #00954E;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
@@ -239,17 +238,22 @@ header {
   padding: 15px 30px;
   transition: 0.3s ease-in-out;
 }
+.service a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .service h4:hover {
   color: #1cbc64;
   border: 3px solid #1cbc64;
   background-color: #f1f1f1;
 }
-#container-buttom-servicos {
+/* #container-buttom-servicos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 .contatos {
   display: flex;
   align-items: center;
