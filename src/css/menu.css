@@ -67,7 +67,7 @@
   .navegation-mobile.selecionado {
     position: absolute;
     width: 100%;
-    background-color: #fff;
+    background-color: #8e1f1f;
     min-height: calc(100vh - 100.73px);
     text-align: start;
     display: flex;
