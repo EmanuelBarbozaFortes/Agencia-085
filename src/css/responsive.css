@@ -98,7 +98,6 @@
   }
   .service h4 {
     font-size: 20px;
-    width: 400px;
   }
   .contatos h2 {
     text-align: center;
@@ -165,6 +164,13 @@
 }
 
 @media (max-width: 720px) {
+  body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
   .home {
     margin-top: 100px;
     min-height: calc(100vh + 100px);
@@ -243,6 +249,7 @@
     margin-top: 70px;
   }
   .quem-somos h3 a{
+    margin: 0 auto;
     font-size: 13.421px;
   }
   .quem-somos h4 {
@@ -270,6 +277,9 @@
     font-weight: 400;
     font-size: 12.047px;
   }
+  .box-projetos {
+    width: 320px;
+}
 
   .service {
     width: 100%;
@@ -279,7 +289,7 @@
     margin-bottom: 80px;
   }
   .container-service {
-    width: 1440px;
+    width: 320px;
     display: flex;
     text-align: center;
     justify-items: center;
@@ -298,6 +308,7 @@
     font-family: "Poppins", sans-serif;
     color: #a7a7a7;
   }
+  
   #container-buttom-servicos{
     display: flex;
     flex-direction: column;
@@ -305,14 +316,13 @@
     justify-content: center;
   }
   .card-service {
-    margin: 17px 17px;
+    margin: 17px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 17px;
-    padding: 40px 20px;
+    padding: 50px 40px;
     background-color: #F1F1F1;
-    width: 45%;
+    width: 235px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
   .card-service img {
@@ -334,33 +344,83 @@
     font-size: 10.591px;
   }
   .container-card {
-    margin: 50px 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .service h4 {
-    /* margin: 25px 30px 100px 30px; */
-    color: #f1f1f1;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
+  .service h4 a{
     font-size: 15.327px;
     border-radius: 12px;
-    /* width: 450px; */
-    background-color: #1cbc64;
-    border: 3px solid #1cbc64;
-    padding: 15px 10px;
-    transition: 0.3s ease-in-out;
+    padding: 10px 40px;
   }
-  .service a{
+  .contatos {
+    padding: 60px 0;
+    background: url(../imgs/fundo-contatos.png) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contatos h2 {
+    font-size: 22.256px;
+  }
+  .contatos h3 a{
+    margin-top: 50px;
+    font-size: 15.996px;
+    padding: 10px 40px;
+  }
+  .contatos p {
+    font-size: 13px;;
+  }
+  .container-footer {
+    padding: 60px 0;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
-  .service h4:hover {
-    color: #1cbc64;
-    border: 3px solid #1cbc64;
-    background-color: #f1f1f1;
+  .home-footer {
+    margin: 10%;
+    width: 81%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .srv-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .srv-item p {
+    margin: 15px 0;
+    font-size: 12.427px;
+    padding: 5px 20px;
+  }
+  .img-footer{
+    margin: 0 auto;
+  }
+
+  .img-footer img{
+    width: 125px ;
+  }
+  .email-phone {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+  }
+  .email-phone p {
+    font-size: 12.61px;
+    color: #1dc468;
+    font-family: "Poppins", sans-serif;
+  }
+  .icon {
+    font-size: 24px;
+  }
+  .container-contatos-footer{
+    margin: 10%;
+    width: 81%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
   }
 }

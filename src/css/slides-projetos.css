@@ -4,8 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin: 60px 0 100px 0;
 }
 .slide{
     width: 320px;
@@ -61,9 +60,6 @@
 
 }
 @media (max-width:1440px){
-    .box-projetos{
-        width: 100%;
-    }
     .slide{
         width: 320px;
         height: 32vh;
@@ -85,13 +81,14 @@
 }
 
 @media (max-width:535px){
+    .projetos
     .slide{
-        width: 250px;
+        width: 230px;
         height: 32vh;
         margin: 40px;
     }
     .slide img{
-        width: 250px;
+        width: 230px;
     }
     .linha{
         display: flex;
