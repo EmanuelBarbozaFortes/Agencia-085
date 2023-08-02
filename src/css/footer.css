@@ -163,8 +163,67 @@ footer {
   .contatos p {
     font-size: 17px;
   }
+  .container-footer {
+    margin: 80px 20px;
+    display: flex;
+    gap: 100px;
+  }
+  .home-footer {
+    display: flex;
+    gap: 52px;
+  }
+  .home-footer h2 {
+    font-size: 18.104px;
+  }
+  .img-footer img {
+    width: 150px;
+  }
+  .email-phone {
+    gap: 10px;
+  }
+  .email-phone p {
+    font-size: 17.61px;
+  }
+  .email-phone i {
+    font-size: 24px;
+  }
+  .contatos h2 {
+    font-size: 30px;
+  }
+  .contatos h3 {
+    margin-top: 50px;
+  }
+  .contatos h3 a {
+    font-size:20px;
+  }
+  .contatos p {
+    font-size:17px;
+  }
 
-
+  .home-footer h2 {
+    font-size: 15.104px;
+  }
+  .redes-sociais {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-sociais i {
+    font-size:  27.188px;
+    font-weight: 400;
+  }
+  .srv-item {
+    width: 194px;
+  }
+  .srv-item p {
+    font-size: 12.427px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid #1dc468;
+  }
+  .icon-sociais i {
+    font-size:  35.188px;
+    font-weight: 400;
+  }
   .direitos {
     padding: 30px;
   }
@@ -213,6 +272,7 @@ footer {
     text-align: center;
     gap: 20px;
   }
+
   .img-footer img {
     width: 125px;
     margin-bottom: 25px;
