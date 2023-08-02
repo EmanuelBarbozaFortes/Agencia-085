@@ -1,0 +1,137 @@
+.home{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh + 100px);
+  }
+  .container-home {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    gap: 107px;
+    align-items: center;
+  }
+  .home .container-home .intro {
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  .titulo-home{
+    width: 400px;
+  }
+  .intro h1 {
+    font-size: 55.66px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #0b9453;
+  }
+  .intro h2 {
+    font-weight: 700;
+    font-size: 55.66px;
+    color: #0b9453;
+  }
+  .intro p {
+    font-weight: 400;
+    color: #999999;
+    font-size: 22px;
+  }
+  .container-home .intro p span {
+    color: #1dc066;
+  }
+  .intro h3 a{
+    color: #ffffff;
+    font-size: 22px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #1dc066;
+    border: solid 2px #1cbc64;
+    padding: 20px 40px;
+    transition: 0.4s ease-in-out;
+  }
+  .intro a:hover {
+    color: #1dc066;
+    background-color: #ffffff;
+    border: solid 2px #1cbc64;
+  }
+  @media (max-width:1024px) {
+    .img-home img {
+        width: 500px;
+      }
+      .container-home {
+        width: 100%;
+      }
+      .titulo-home {
+        width:320px;
+      }
+      .intro h1 {
+        font-size: 42.66px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #0b9453;
+      }
+      .intro h2 {
+        font-size: 42.66px;
+        color: #0b9453;
+      }
+      .intro p {
+        color: #999999;
+        margin: 30px 1px;
+        font-size: 17px;
+      }
+      .intro h3 {
+        width: 400px;
+        font-size: 17px;
+        padding: 17px 27px;
+      }
+    
+  }
+  @media(max-width:750px){
+
+    .home {
+        margin-top: 100px;
+        min-height: calc(100vh + 100px);
+      }
+      .container-home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .img-home img {
+        width: 350px;
+      }
+      .container-home {
+        width: 268px;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+      }
+      .home .container-home .intro {
+        width: 268px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+      }
+      .titulo-home {
+        text-align: center;
+        width: 230px;
+      }
+      .intro h1 {
+        font-size: 31.777px;  
+      }
+      .intro h2 {
+        font-size: 31.777px;
+      }
+      .intro p {
+        font-size: 12.571px;
+      }
+      .intro h3 a {
+        text-align: center;
+        font-size: 13.658px;
+        padding: 10px 30px;
+      }
+    
+  }

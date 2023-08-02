@@ -1,106 +1,164 @@
-.box-projetos{
-    width: 1440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 60px 0 100px 0;
+.projetos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.slide{
+.text-projetos {
+  text-align: center;
+}
+.projetos h2 {
+  margin: 150px 0px 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #1cbc64;
+}
+.projetos span {
+  padding: 5px;
+  color: #f1f1f1;
+  background-color: #1cbc64;
+}
+.projetos p {
+  color: #a7a7a7;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.projetos p strong {
+  font-weight: 400;
+  color: #1cbc64;
+}
+
+.box-projetos {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0 100px 0;
+}
+.slide {
+  width: 320px;
+  height: 32vh;
+  margin: 40px;
+}
+.slide img {
+  width: 320px;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#oliver img {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+#oliver img.selected-oliver {
+  opacity: 1;
+}
+
+#jvieira img {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+#jvieira img.selected-viera {
+  opacity: 1;
+}
+
+#perso img {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+#perso img.selected-perso {
+  opacity: 1;
+}
+
+#provi img {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+#provi img.selected-provi {
+  opacity: 1;
+}
+.linha {
+  display: flex;
+  margin: 1px;
+  justify-content: center;
+}
+
+
+
+
+@media (max-width: 1440px) {
+  .slide {
     width: 320px;
     height: 32vh;
-    margin: 40px;
+    margin: 4% 20px;
+  }
 }
-.slide img{
+
+
+
+
+
+@media (max-width: 1024px) {
+  .projetos h2 {
+    font-size: 44px;
+    color: #1cbc64;
+  }
+  .projetos p {
+    font-size: 16px;
+  }
+  .projetos p strong {
+    font-weight: 400;
+    color: #1cbc64;
+  }
+  .slide {
+    width: 250px;
+    height: 32vh;
+    margin: 20px;
+  }
+  .slide img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  .text-projetos {
+    text-align: center;
+  }
+  .projetos h2 {
+    margin: 100px 0px 20px;
+    font-size: 25.118px;
+  }
+  .projetos p {
+    color: #a7a7a7;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12.047px;
+  }
+  .box-projetos {
     width: 320px;
-    position: absolute;
-    border-radius: 10px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;  
-}
-#oliver img{
-    opacity: 0;
-    transition:  opacity 0.9s ease-in-out;
-}
-#oliver img.selected-oliver{
-    opacity: 1;
-}
+  }
 
-#jvieira img{
-    opacity: 0;
-    transition:  opacity 0.9s ease-in-out;
-}
-#jvieira img.selected-viera{
-    opacity: 1;
-}
-
-
-#perso img{
-    opacity: 0;
-    transition:  opacity 0.9s ease-in-out;
-}
-#perso img.selected-perso{
-    opacity: 1;
-}
-
-
-#provi img{
-    opacity: 0;
-    transition:  opacity 0.9s ease-in-out;
-}
-#provi img.selected-provi{
-    opacity: 1;
-}
-.linha{
+  .projetos .slide {
+    width: 230px;
+    height: 32vh;
+    margin: 40px;
+  }
+  .slide img {
+    width: 230px;
+  }
+  .linha {
     display: flex;
+    flex-direction: column;
     margin: 1px;
     justify-content: center;
-}
-@media (max-width:1680px){
-
-
-}
-@media (max-width:1440px){
-    .slide{
-        width: 320px;
-        height: 32vh;
-        margin: 4% 20px;
-    }
-
-}
-
-@media (max-width:1024px){
-    .slide{
-        width: 250px;
-        height: 32vh;
-        margin: 20px;
-    }
-    .slide img{
-        width: 250px;
-    }
-    
-}
-
-@media (max-width:535px){
-    .projetos
-    .slide{
-        width: 230px;
-        height: 32vh;
-        margin: 40px;
-    }
-    .slide img{
-        width: 230px;
-    }
-    .linha{
-        display: flex;
-        flex-direction: column;
-        margin: 1px;
-        justify-content: center;
-    }
-    .kpop-logos {
-        position: absolute;
-        display: none;
-
-    }
-
-    
+  }
+  .kpop-logos {
+    position: absolute;
+    display: none;
+  }
 }

@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  background-color: #ffffff8a;
+  background-color: #ffffff;
   backdrop-filter: blur(7px);
   width: 100%;
   z-index: 100;
@@ -67,7 +67,7 @@
   .navegation-mobile.selecionado {
     position: absolute;
     width: 100%;
-    background-color: #8e1f1f;
+    background-color: #ffffff;
     min-height: calc(100vh - 100.73px);
     text-align: start;
     display: flex;

@@ -98,6 +98,7 @@
   }
   .service h4 {
     font-size: 20px;
+    width: 400px;
   }
   .contatos h2 {
     text-align: center;
@@ -164,13 +165,6 @@
 }
 
 @media (max-width: 720px) {
-  body{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
   .home {
     margin-top: 100px;
     min-height: calc(100vh + 100px);
@@ -277,9 +271,6 @@
     font-weight: 400;
     font-size: 12.047px;
   }
-  .box-projetos {
-    width: 320px;
-}
 
   .service {
     width: 100%;
@@ -289,7 +280,7 @@
     margin-bottom: 80px;
   }
   .container-service {
-    width: 320px;
+    width: 1440px;
     display: flex;
     text-align: center;
     justify-items: center;
@@ -308,7 +299,6 @@
     font-family: "Poppins", sans-serif;
     color: #a7a7a7;
   }
-  
   #container-buttom-servicos{
     display: flex;
     flex-direction: column;
@@ -395,24 +385,19 @@
     font-size: 12.427px;
     padding: 5px 20px;
   }
-  .img-footer{
-    margin: 0 auto;
-  }
-
-  .img-footer img{
-    width: 125px ;
-  }
   .email-phone {
     display: flex;
     gap: 15px;
-    padding: 10px 0;
+    padding: 25px;
   }
   .email-phone p {
-    font-size: 12.61px;
+    font-size: 10.61px;
     color: #1dc468;
     font-family: "Poppins", sans-serif;
   }
   .icon {
+    font-weight: 400;
+    color: #faaa35;
     font-size: 24px;
   }
   .container-contatos-footer{

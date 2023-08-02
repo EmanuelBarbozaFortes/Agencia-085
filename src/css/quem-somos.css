@@ -1,0 +1,124 @@
+.quem-somos {
+  margin: 100px auto;
+  max-width: 100%;
+}
+.container-quem-somos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  gap: 163px;
+}
+.content {
+  text-align: start;
+  width: 596px;
+}
+.quem-somos h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #1cbc64;
+}
+.quem-somos p {
+  color: #838383;
+  margin: 35px 1px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.quem-somos h3 {
+  margin-top: 70px;
+}
+.quem-somos h3 a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #1cbc64;
+  font-size: 25.5px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #ffffff;
+  border: solid #1cbc64;
+  padding: 15px 25px;
+  transition: 0.3s ease-in-out;
+  width: 530px;
+}
+.quem-somos h3 a:hover {
+  color: #ffffff;
+  background-color: #faaa35;
+  border: solid #faaa35;
+}
+.quem-somos h4 {
+  color: #faaa35;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .quem-somos h2 {
+    font-weight: 700;
+    font-size: 44px;
+  }
+  .quem-somos p {
+    color: #838383;
+    margin: 28px 1px;
+    font-size: 14px;
+  }
+  .quem-somos h3 {
+    font-size: 20.5px;
+    /* width: 430px; */
+  }
+  .quem-somos h4 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 720px) { 
+    .quem-somos{
+      margin: 50px auto;
+      max-width: 100%;
+    }
+    .container-quem-somos{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      width: 319.671px;
+      gap: 80px;
+    }
+    .content{
+      text-align: center;
+      width: 319.671px
+    }
+    .quem-somos h2 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 32.935px;
+      color: #1cbc64;
+    }
+    .quem-somos p {
+      color: #838383;
+      margin: 20px 1px;
+      font-family: "Poppins", sans-serif;
+      font-size: 11.118px;
+      font-weight: 400;
+    }
+    .quem-somos h3{
+      margin-top: 70px;
+    }
+    .quem-somos h3 a{
+      margin: 0 auto;
+      font-size: 13.421px;
+    }
+    .quem-somos h4 {
+      color: #faaa35;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 13.174px;
+    }
+    .img-quem-somos img{
+      width: 224.468px;
+    }
+}
