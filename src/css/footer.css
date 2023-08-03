@@ -155,6 +155,9 @@ footer {
   font-weight: 400;
   color: #dbaf40;
 }
+.direitos a{
+  color: #f9a530;
+}
 
 @media (max-width: 1024px) {
   .contatos h2 {
@@ -238,9 +241,7 @@ footer {
   .direitos h3 {
     font-size: 14px;
   }
-  .direitos a{
-    color: #f9a530;
-  }
+  
 }
 
 @media (max-width: 720px) {
