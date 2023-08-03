@@ -24,23 +24,40 @@
   align-items: center;
   justify-content: center;
 }
-.header-container .navegation a {
-  color: #1dc066;
+.header-container .navegation a{
+  color: #1DC066;
   font-family: Roboto Condensed;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  transition: 0.4s ease-in-out;
+}
+.navegation a:hover{
+  color: #FBAE39;
+}
+.navegation-mobile a{
+  transition: 0.4s ease-in-out;
+}
+.navegation-mobile a:hover{
+  color: #FBAE39;
 }
 #btn-menu {
   margin-left: 32px;
   color: #fff;
-  padding: 11px 25px;
+  padding: 9px 23px;
   font-style: normal;
   font-weight: 700;
   border-radius: 12px;
   font-family: Roboto Condensed;
   background: #1dc066;
+  border:solid #1dc066;
+  transition: 0.4s ease-in-out;
+}
+#btn-menu:hover {
+  color: #1dc066;
+  border: solid #1dc066;
+  background: #ffffff;
 }
 .menu-mobile {
   display: none;

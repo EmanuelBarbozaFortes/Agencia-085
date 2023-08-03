@@ -91,7 +91,7 @@
   @media(max-width:750px){
 
     .home {
-        margin-top: 100px;
+        margin-top: 80px;
         min-height: calc(100vh + 100px);
       }
       .container-home {
@@ -106,13 +106,14 @@
         width: 268px;
         display: flex;
         justify-content: center;
+        gap: 90px;
       }
       .home .container-home .intro {
         width: 268px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 50px;
       }
       .titulo-home {
         text-align: center;
@@ -129,8 +130,8 @@
       }
       .intro h3 a {
         text-align: center;
-        font-size: 10.658px;
-        padding: 10px 30px;
+        font-size: 12.658px;
+        padding: 14px 19px;
       }
     
   }

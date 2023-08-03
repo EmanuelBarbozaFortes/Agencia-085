@@ -118,7 +118,7 @@ footer {
   flex-direction: column;
   gap: 10px;
 }
-.srv-item p {
+.srv-item li{
   text-align: center;
   color: #1dc468;
   font-family: Poppins;
@@ -129,6 +129,11 @@ footer {
   padding: 5px 30px;
   border-radius: 30px;
   border: 2px solid #1dc468;
+  transition: 0.4s ease-in-out;
+}
+.srv-item li:hover{
+  color: #faa833;
+  border: 2px solid #faa833;
 }
 
 .direitos {
@@ -214,7 +219,7 @@ footer {
   .srv-item {
     width: 194px;
   }
-  .srv-item p {
+  .srv-item li{
     font-size: 12.427px;
     padding: 5px 10px;
     border-radius: 30px;
@@ -232,6 +237,9 @@ footer {
   }
   .direitos h3 {
     font-size: 14px;
+  }
+  .direitos a{
+    color: #f9a530;
   }
 }
 
@@ -301,7 +309,7 @@ footer {
   .srv-item {
     width: 194px;
   }
-  .srv-item p {
+  .srv-item li{
     font-size: 12.427px;
     padding: 5px 10px;
     border-radius: 30px;
