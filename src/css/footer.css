@@ -111,6 +111,10 @@ footer {
   color: #faa833;
   font-size: 45px;
   font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+.icon-sociais i:hover {
+  color: #ee93146c;
 }
 .srv-item {
   margin-top: 25px;
@@ -306,6 +310,8 @@ footer {
   .icon-sociais i {
     font-size:  27.188px;
     font-weight: 400;
+  }
+  .icon-sociais i:hover {
   }
   .srv-item {
     width: 194px;
