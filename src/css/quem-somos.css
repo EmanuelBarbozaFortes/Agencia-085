@@ -128,7 +128,8 @@
     }
     .quem-somos h3 a{
       margin: 0 auto;
-      font-size: 13.421px;
+      padding: 14px 19px;
+      font-size: 10.421px;
     }
     .quem-somos h4 {
       color: #faaa35;

@@ -91,7 +91,7 @@
   @media(max-width:750px){
 
     .home {
-        margin-top: 80px;
+        margin-top: 150px;
         min-height: calc(100vh + 100px);
       }
       .container-home {
@@ -130,7 +130,7 @@
       }
       .intro h3 a {
         text-align: center;
-        font-size: 12.658px;
+        font-size: 10.658px;
         padding: 14px 19px;
       }
     

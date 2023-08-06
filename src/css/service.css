@@ -209,8 +209,7 @@
     justify-content: center;
   }
   .service h4 a {
-    font-size: 15.327px;
-    border-radius: 12px;
-    padding: 10px 40px;
+    padding: 14px 19px;
+    font-size: 10.421px;
   }
 }
