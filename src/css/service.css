@@ -1,4 +1,5 @@
 .service {
+  margin-top: 100px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -17,7 +18,7 @@
   font-weight: 700;
   font-size: 55px;
   color: #1cbc64;
-  margin: 100px 0px 15px 0;
+  margin-bottom: 15px;
 }
 .service .title h2 span {
   background-color: #f9a530;

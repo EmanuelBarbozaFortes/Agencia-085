@@ -11,7 +11,9 @@
 }
 
 
+.empresas{
 
+}
 .slider {
   display: flex;
   align-items: center;
@@ -25,8 +27,8 @@
   align-items: center;
   justify-content: center;
   width: 90%;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .swiper-slide {
@@ -55,7 +57,7 @@
   width: 100%;
 }
 .empresas h2 {
-  margin: 100px;
+  margin: 30px auto 15px;
   color: #1CBC64;
   text-align: start;
   font-size: 55px;
