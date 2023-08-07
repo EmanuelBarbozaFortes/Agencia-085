@@ -2,7 +2,6 @@ let swiper = new Swiper(".mySwiper", {
   
     effect: "coverflow",
     loop: true,
-    slidesPerView: 4,
     spaceBetween:60,
     grabCursor: true,
     centeredSlides: true,
@@ -25,16 +24,16 @@ let swiper = new Swiper(".mySwiper", {
     //   delay: 2000,
     // },
     breakpoints: {
-      300: {
+      620: {
         slidesPerView: 1,
       },
-      620: {
+      941: {
         slidesPerView: 2,
       },
-      800: {
+      1400: {
         slidesPerView: 3,
       },
-      1100: {
+      1541: {
         slidesPerView: 4,
       },
     },

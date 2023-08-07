@@ -1,3 +1,17 @@
+.swiper-button-prev,.swiper-button-next,.buttom {
+  --swiper-navigation-size: 80px;
+  --swiper-navigation-top-offset: ;
+  --swiper-navigation-sides-offset: 50px;
+  --swiper-theme-color: #fbae39;
+  --swiper-navigation-color: var(--swiper-theme-color);
+   font-weight: 700;
+}
+.swiper-pagination{
+  --swiper-theme-color: #fbae39;
+}
+
+
+
 .slider {
   display: flex;
   align-items: center;
@@ -28,7 +42,6 @@
   width: 100%;
 }
 .empresas {
-  /* background: linear-gradient(to top ,#0B9453, #FFFFFF); */
   background-color: #f1f1f1;
   text-align: start;
   padding: 100px 140px 140px 140px;
@@ -56,4 +69,164 @@
 }
 .img-empresas{
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+@media(max-width:1560px){
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    padding: 30px 0;
+  }
+  
+  .swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    padding-bottom: 40px;
+  }
+  
+  .swiper-slide img {
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+  }
+  .swiper-button-prev,.swiper-button-next {
+    --swiper-navigation-size: 80px;
+    --swiper-navigation-top-offset: ;
+    --swiper-navigation-sides-offset: 50px;
+    --swiper-theme-color: #fbae39;
+    --swiper-navigation-color: var(--swiper-theme-color);
+     font-weight: 700;
+  }
+}
+@media(max-width:1330px){
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 870px;
+    padding: 30px 0;
+  }
+  
+  .swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  
+  .swiper-slide img {
+    border-radius: 7px;
+    display: block;
+    /* width: 100%; */
+  }
+  @media(max-width:1065px){
+    .slider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 650px;
+      padding: 30px 0;
+    }
+    .empresas h2 {
+      margin: 50px 0;
+      text-align: center;
+      font-size: 45.232px;
+    }
+    .swiper-button-prev,.swiper-button-next {
+      --swiper-navigation-size: 50px;
+      --swiper-navigation-top-offset: ;
+      --swiper-navigation-sides-offset: 20px;
+      --swiper-theme-color: #fbae39;
+      --swiper-navigation-color: var(--swiper-theme-color);
+       font-weight: 700;
+    }
+    
+    .swiper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width:90%;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 50%;
+      padding-bottom: 40px;
+    }
+    
+    .swiper-slide img {
+      border-radius: 7px;
+      display: block;
+      /* width: 100%; */
+    }
+  }
+  @media(max-width:841px){
+    .slider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 520px;
+      padding: 30px 0;
+    }
+  }
+  @media(max-width:650px){
+    .empresas {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 60px 5px 60px 5px;
+    }
+    .slider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 414px;
+      padding: 30px 0;
+    }
+  }
+  @media(max-width:520px){
+    .slider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 325px;
+      padding: 30px 0;
+    }
+  }
+  @media(max-width:414px){
+    .empresas h2 {
+      margin: 0;
+      text-align: center;
+      font-size: 24.232px;
+    }
+    .slider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      padding: 30px 0;
+    }
+  }
 }
