@@ -13,6 +13,9 @@
   text-align: start;
   width: 596px;
 }
+.img-quem-somos img{
+  filter:  drop-shadow(30px 10px 4px #00000021);
+}
 .quem-somos h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;

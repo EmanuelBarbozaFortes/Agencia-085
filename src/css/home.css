@@ -56,6 +56,9 @@
     background-color: #ffffff;
     border: solid #1cbc64;
   }
+  .img-home img {
+    filter:  drop-shadow(30px 10px 4px #00000021);
+  }
   @media (max-width:1024px) {
     .img-home img {
         width: 400px;
